@@ -1,0 +1,1794 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Background"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chapter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outfit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Screenwriter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Series"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Special_effects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Videographer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worker"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasSome"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsNotRelevant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OccurIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ParticipateIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age_In_Series"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alived"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Char_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Colour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Direction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IsFinished"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Model"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#N_Chapters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name_In_Series"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ObjectName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PersonName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Salary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camera1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camera2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char1_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char1_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char1_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char1_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char1_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char2_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char2_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Char5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Effects"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fassion1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fassion2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fassion3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fassion4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fassion5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GroundChar1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GroundChar2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GroundChar3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Place1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Place2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Place3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Place4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Place5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Place6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Season2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stage1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stage2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stage3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stage4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stage5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stage6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vehicle1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vehicle2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Writter"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Actor"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Background"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indoor"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Main"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdoor"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outfit"/>
+        <Class IRI="#Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Screenwriter"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Special_effects"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stage"/>
+        <Class IRI="#Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicle"/>
+        <Class IRI="#Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Videographer"/>
+        <Class IRI="#Worker"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Videographer"/>
+        <NamedIndividual IRI="#Camera1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Videographer"/>
+        <NamedIndividual IRI="#Camera2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main"/>
+        <NamedIndividual IRI="#Char1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Char1_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Char1_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Char1_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Char1_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secondary"/>
+        <NamedIndividual IRI="#Char2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Char2_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secondary"/>
+        <NamedIndividual IRI="#Char3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main"/>
+        <NamedIndividual IRI="#Char4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secondary"/>
+        <NamedIndividual IRI="#Char5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Director"/>
+        <NamedIndividual IRI="#Director"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Special_effects"/>
+        <NamedIndividual IRI="#Effects"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outfit"/>
+        <NamedIndividual IRI="#Fassion1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outfit"/>
+        <NamedIndividual IRI="#Fassion2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outfit"/>
+        <NamedIndividual IRI="#Fassion3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outfit"/>
+        <NamedIndividual IRI="#Fassion4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outfit"/>
+        <NamedIndividual IRI="#Fassion5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Background"/>
+        <NamedIndividual IRI="#GroundChar1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Background"/>
+        <NamedIndividual IRI="#GroundChar2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Background"/>
+        <NamedIndividual IRI="#GroundChar3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Indoor"/>
+        <NamedIndividual IRI="#Place1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outdoor"/>
+        <NamedIndividual IRI="#Place2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outdoor"/>
+        <NamedIndividual IRI="#Place3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Indoor"/>
+        <NamedIndividual IRI="#Place4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Indoor"/>
+        <NamedIndividual IRI="#Place5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Outdoor"/>
+        <NamedIndividual IRI="#Place6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Season"/>
+        <NamedIndividual IRI="#Season1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Season"/>
+        <NamedIndividual IRI="#Season2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Series"/>
+        <NamedIndividual IRI="#Serie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stage"/>
+        <NamedIndividual IRI="#Stage1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stage"/>
+        <NamedIndividual IRI="#Stage2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stage"/>
+        <NamedIndividual IRI="#Stage3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stage"/>
+        <NamedIndividual IRI="#Stage4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stage"/>
+        <NamedIndividual IRI="#Stage5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stage"/>
+        <NamedIndividual IRI="#Stage6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehicle"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehicle"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Screenwriter"/>
+        <NamedIndividual IRI="#Writter"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Camera1"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Camera1"/>
+        <NamedIndividual IRI="#Char1_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Camera1"/>
+        <NamedIndividual IRI="#Char1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Camera1"/>
+        <NamedIndividual IRI="#Char1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Camera1"/>
+        <NamedIndividual IRI="#Char1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Camera2"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Camera2"/>
+        <NamedIndividual IRI="#Char2_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char1"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char1"/>
+        <NamedIndividual IRI="#Char1_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char1"/>
+        <NamedIndividual IRI="#Char1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char1"/>
+        <NamedIndividual IRI="#Char1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char1"/>
+        <NamedIndividual IRI="#Char1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char1"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char1"/>
+        <NamedIndividual IRI="#Char2_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char2"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char2"/>
+        <NamedIndividual IRI="#Char1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char2"/>
+        <NamedIndividual IRI="#Char1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char2"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char3"/>
+        <NamedIndividual IRI="#Char1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char3"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char4"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char4"/>
+        <NamedIndividual IRI="#Char1_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char4"/>
+        <NamedIndividual IRI="#Char1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char4"/>
+        <NamedIndividual IRI="#Char1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char4"/>
+        <NamedIndividual IRI="#Char1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char4"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char4"/>
+        <NamedIndividual IRI="#Char2_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char5"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#Char5"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#GroundChar1"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#GroundChar2"/>
+        <NamedIndividual IRI="#Char1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <NamedIndividual IRI="#GroundChar3"/>
+        <NamedIndividual IRI="#Char2_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OccurIn"/>
+        <NamedIndividual IRI="#Place1"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OccurIn"/>
+        <NamedIndividual IRI="#Place1"/>
+        <NamedIndividual IRI="#Char1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OccurIn"/>
+        <NamedIndividual IRI="#Place1"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OccurIn"/>
+        <NamedIndividual IRI="#Place2"/>
+        <NamedIndividual IRI="#Char1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OccurIn"/>
+        <NamedIndividual IRI="#Place3"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OccurIn"/>
+        <NamedIndividual IRI="#Place3"/>
+        <NamedIndividual IRI="#Char1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OccurIn"/>
+        <NamedIndividual IRI="#Place3"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OccurIn"/>
+        <NamedIndividual IRI="#Place4"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OccurIn"/>
+        <NamedIndividual IRI="#Place5"/>
+        <NamedIndividual IRI="#Char1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OccurIn"/>
+        <NamedIndividual IRI="#Place6"/>
+        <NamedIndividual IRI="#Char2_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPart"/>
+        <NamedIndividual IRI="#Season1"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPart"/>
+        <NamedIndividual IRI="#Season1"/>
+        <NamedIndividual IRI="#Char1_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPart"/>
+        <NamedIndividual IRI="#Season1"/>
+        <NamedIndividual IRI="#Char1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPart"/>
+        <NamedIndividual IRI="#Season1"/>
+        <NamedIndividual IRI="#Char1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPart"/>
+        <NamedIndividual IRI="#Season1"/>
+        <NamedIndividual IRI="#Char1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPart"/>
+        <NamedIndividual IRI="#Season2"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPart"/>
+        <NamedIndividual IRI="#Season2"/>
+        <NamedIndividual IRI="#Char2_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Stage1"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Stage1"/>
+        <NamedIndividual IRI="#Char1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Stage2"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Stage3"/>
+        <NamedIndividual IRI="#Char1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Stage4"/>
+        <NamedIndividual IRI="#Char2_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Stage5"/>
+        <NamedIndividual IRI="#Char1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Stage6"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <NamedIndividual IRI="#Char1_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <NamedIndividual IRI="#Char1_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <NamedIndividual IRI="#Char1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <NamedIndividual IRI="#Char2_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasSome"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <NamedIndividual IRI="#Char2_2"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Camera1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PersonName"/>
+        <NamedIndividual IRI="#Camera1"/>
+        <Literal>Álvaro Cozar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Camera1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Camera2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Camera2"/>
+        <Literal>Angelo Angel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Camera2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Char1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_In_Series"/>
+        <NamedIndividual IRI="#Char1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alived"/>
+        <NamedIndividual IRI="#Char1"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char1"/>
+        <Literal>Jose Alberto San</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_In_Series"/>
+        <NamedIndividual IRI="#Char1"/>
+        <Literal>Fabian Heredia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Char1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">38000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Char1_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char1_1"/>
+        <Literal>Obsesion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char1_2"/>
+        <Literal>Anxiety</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char1_3"/>
+        <Literal>Represion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char1_4"/>
+        <Literal>Avalanche</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char1_5"/>
+        <Literal>Fury</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Char2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_In_Series"/>
+        <NamedIndividual IRI="#Char2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alived"/>
+        <NamedIndividual IRI="#Char2"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char2"/>
+        <Literal>Antonio Maria Contreras</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_In_Series"/>
+        <NamedIndividual IRI="#Char2"/>
+        <Literal>Arnau Toribio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Char2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">80000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char2_1"/>
+        <Literal>Agony</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char2_2"/>
+        <Literal>Agony</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Char3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_In_Series"/>
+        <NamedIndividual IRI="#Char3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alived"/>
+        <NamedIndividual IRI="#Char3"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char3"/>
+        <Literal>Mario Zapata</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_In_Series"/>
+        <NamedIndividual IRI="#Char3"/>
+        <Literal>Joaquim Rincon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Char3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">17000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Char4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_In_Series"/>
+        <NamedIndividual IRI="#Char4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alived"/>
+        <NamedIndividual IRI="#Char4"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char4"/>
+        <Literal>Rayan Quero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_In_Series"/>
+        <NamedIndividual IRI="#Char4"/>
+        <Literal>Iago Pino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Char4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Char5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_In_Series"/>
+        <NamedIndividual IRI="#Char5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alived"/>
+        <NamedIndividual IRI="#Char5"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Char5"/>
+        <Literal>Bartolome Ubeda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name_In_Series"/>
+        <NamedIndividual IRI="#Char5"/>
+        <Literal>Candido Casanova</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Char5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">80000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Director"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Director"/>
+        <Literal>Gregorio Campillo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Director"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Effects"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Effects"/>
+        <Literal>Jacobo Sebastian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Effects"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Colour"/>
+        <NamedIndividual IRI="#Fassion1"/>
+        <Literal>Red</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Colour"/>
+        <NamedIndividual IRI="#Fassion2"/>
+        <Literal>Green</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Colour"/>
+        <NamedIndividual IRI="#Fassion3"/>
+        <Literal>Yellow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Colour"/>
+        <NamedIndividual IRI="#Fassion4"/>
+        <Literal>Blue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Colour"/>
+        <NamedIndividual IRI="#Fassion5"/>
+        <Literal>Blue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#GroundChar1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_In_Series"/>
+        <NamedIndividual IRI="#GroundChar1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#GroundChar1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#GroundChar2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_In_Series"/>
+        <NamedIndividual IRI="#GroundChar2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#GroundChar2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#GroundChar3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_In_Series"/>
+        <NamedIndividual IRI="#GroundChar3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">62</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#GroundChar3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Direction"/>
+        <NamedIndividual IRI="#Place1"/>
+        <Literal>Direction1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Place"/>
+        <NamedIndividual IRI="#Place1"/>
+        <Literal>Office</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Direction"/>
+        <NamedIndividual IRI="#Place2"/>
+        <Literal>Direction2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Place"/>
+        <NamedIndividual IRI="#Place2"/>
+        <Literal>Older Bridge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Direction"/>
+        <NamedIndividual IRI="#Place3"/>
+        <Literal>Direction3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Place"/>
+        <NamedIndividual IRI="#Place3"/>
+        <Literal>Beach</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Direction"/>
+        <NamedIndividual IRI="#Place4"/>
+        <Literal>Direction1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Place"/>
+        <NamedIndividual IRI="#Place4"/>
+        <Literal>Abandoned house</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Direction"/>
+        <NamedIndividual IRI="#Place5"/>
+        <Literal>Direction1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Place"/>
+        <NamedIndividual IRI="#Place5"/>
+        <Literal>Home</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Direction"/>
+        <NamedIndividual IRI="#Place6"/>
+        <Literal>Direction4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Place"/>
+        <NamedIndividual IRI="#Place6"/>
+        <Literal>Center of city</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsFinished"/>
+        <NamedIndividual IRI="#Season1"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#N_Chapters"/>
+        <NamedIndividual IRI="#Season1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsFinished"/>
+        <NamedIndividual IRI="#Season2"/>
+        <Literal>No</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#N_Chapters"/>
+        <NamedIndividual IRI="#Season2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#IsFinished"/>
+        <NamedIndividual IRI="#Serie"/>
+        <Literal>No</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#N_Chapters"/>
+        <NamedIndividual IRI="#Serie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Serie"/>
+        <Literal>Revenge&apos;s Name</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Type"/>
+        <NamedIndividual IRI="#Serie"/>
+        <Literal>Thriller</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Stage1"/>
+        <Literal>Streetlight</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Stage1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Stage2"/>
+        <Literal>Streetlight</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Stage2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Stage3"/>
+        <Literal>Gun</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Stage3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Stage4"/>
+        <Literal>Table</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Stage4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Stage5"/>
+        <Literal>Shovel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Stage5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Stage6"/>
+        <Literal>Chair</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Stage6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal>Subaru</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Vehicle1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Model"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal>Seat Leon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Vehicle2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Writter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Writter"/>
+        <Literal>Consolacion Caro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Salary"/>
+        <NamedIndividual IRI="#Writter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60000</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasSome"/>
+        <Class IRI="#Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsNotRelevant"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OccurIn"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <Class IRI="#Background"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <Class IRI="#Main"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <Class IRI="#Secondary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPart"/>
+        <Class IRI="#Season"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasSome"/>
+        <Class IRI="#Chapter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsNotRelevant"/>
+        <Class IRI="#Chapter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OccurIn"/>
+        <Class IRI="#Chapter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ParticipateIn"/>
+        <Class IRI="#Chapter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPart"/>
+        <Class IRI="#Chapter"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#IsNotRelevant"/>
+        <ObjectProperty IRI="#ParticipateIn"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Age_In_Series"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Char_Name"/>
+        <DataProperty IRI="#Name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ObjectName"/>
+        <DataProperty IRI="#Name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#PersonName"/>
+        <DataProperty IRI="#Name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Place"/>
+        <DataProperty IRI="#Name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Title"/>
+        <DataProperty IRI="#Name"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#Worker"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age_In_Series"/>
+        <Class IRI="#Actor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alived"/>
+        <Class IRI="#Actor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Char_Name"/>
+        <Class IRI="#Chapter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Colour"/>
+        <Class IRI="#Outfit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Direction"/>
+        <Class IRI="#Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IsFinished"/>
+        <Class IRI="#Season"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Model"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#N_Chapters"/>
+        <Class IRI="#Season"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#N_Chapters"/>
+        <Class IRI="#Series"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name_In_Series"/>
+        <Class IRI="#Main"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name_In_Series"/>
+        <Class IRI="#Secondary"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Number"/>
+        <Class IRI="#Chapter"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Number"/>
+        <Class IRI="#Season"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ObjectName"/>
+        <Class IRI="#Stage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PersonName"/>
+        <Class IRI="#Worker"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Place"/>
+        <Class IRI="#Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Price"/>
+        <Class IRI="#Objects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Salary"/>
+        <Class IRI="#Worker"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Title"/>
+        <Class IRI="#Series"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Type"/>
+        <Class IRI="#Series"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age_In_Series"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alived"/>
+        <DataOneOf>
+            <Literal>No</Literal>
+            <Literal>Yes</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Char_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Colour"/>
+        <DataOneOf>
+            <Literal>Black</Literal>
+            <Literal>Blue</Literal>
+            <Literal>Brown</Literal>
+            <Literal>Green</Literal>
+            <Literal>Orange</Literal>
+            <Literal>Red</Literal>
+            <Literal>White</Literal>
+            <Literal>Yellow</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Direction"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IsFinished"/>
+        <DataOneOf>
+            <Literal>No</Literal>
+            <Literal>Yes</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Model"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#N_Chapters"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name_In_Series"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Number"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ObjectName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PersonName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Place"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Price"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Salary"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#Age"/>
+        <DataProperty IRI="#Age_In_Series"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#Name_In_Series"/>
+    </DisjointDataProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Actor</IRI>
+        <Literal>The actors in the filming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Age</IRI>
+        <Literal>Age of the Worker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Age_In_Series</IRI>
+        <Literal>The age of the charapter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alived</IRI>
+        <Literal>If a charapter is alived</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Background</IRI>
+        <Literal>For background actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chapter</IRI>
+        <Literal>Class assosiated with the chapters in a season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Char_Name</IRI>
+        <Literal>Charapter name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Colour</IRI>
+        <Literal>Colour of the outfit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Direction</IRI>
+        <Literal>The real direction of a place that was filmed a chapter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Director</IRI>
+        <Literal>Director of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasSome</IRI>
+        <Literal>Objects used in a chapter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Indoor</IRI>
+        <Literal>The filming was in a place indoor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsFinished</IRI>
+        <Literal>If a season is finished</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IsNotRelevant</IRI>
+        <Literal>If a charapter is not relevant for the chapter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Main</IRI>
+        <Literal>For main actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Model</IRI>
+        <Literal>Model of the vehicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#N_Chapters</IRI>
+        <Literal>Number of chapters of a season and series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Name</IRI>
+        <Literal>Name of the elements on the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Name_In_Series</IRI>
+        <Literal>Name of the charapters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Number</IRI>
+        <Literal>Number of the season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ObjectName</IRI>
+        <Literal>Name of the object used in a chapter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Objects</IRI>
+        <Literal>Objects used in a chapter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OccurIn</IRI>
+        <Literal>Especificate the relation between the places and the chapters on the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Outdoor</IRI>
+        <Literal>The filming was in a place outdoor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Outfit</IRI>
+        <Literal>Outfit used in a chapter by a character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ParticipateIn</IRI>
+        <Literal>The actors that participated in a chapter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PersonName</IRI>
+        <Literal>Real name of the persons implicated on the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Place</IRI>
+        <Literal>Name of the place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Place</IRI>
+        <Literal>Places where he has had the filming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Price</IRI>
+        <Literal>Price of the object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Salary</IRI>
+        <Literal>Salary of the persons in the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Screenwriter</IRI>
+        <Literal>Screenwriter of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Season</IRI>
+        <Literal>Season of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Secondary</IRI>
+        <Literal>For secondary actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Series</IRI>
+        <Literal>The series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Special_effects</IRI>
+        <Literal>The person who is the responsable of the special effects on the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Stage</IRI>
+        <Literal>Element used in a chapter for the setting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Title</IRI>
+        <Literal>Title of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Type</IRI>
+        <Literal>Type of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vehicle</IRI>
+        <Literal>Vehicle used in a chapter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Videographer</IRI>
+        <Literal>The Videographers of the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Worker</IRI>
+        <Literal>Persons who works in the series</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isPart</IRI>
+        <Literal>The number of episodes of a season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal>General Class</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
