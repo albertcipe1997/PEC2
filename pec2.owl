@@ -1,0 +1,694 @@
+Prefix(:=<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7>
+
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Background>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Indoor>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Main>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Objects>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outdoor>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Screenwriter>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Secondary>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Series>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Special_effects>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Videographer>))
+Declaration(Class(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsNotRelevant>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char_Name>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsFinished>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Model>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#N_Chapters>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Number>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ObjectName>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#PersonName>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Title>))
+Declaration(DataProperty(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Type>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Effects>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place6>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Serie>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage3>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage4>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage5>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage6>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle1>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle2>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Writter>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> "Objects used in a chapter"^^xsd:string)
+ObjectPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Objects>)
+ObjectPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter>)
+
+# Object Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsNotRelevant> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsNotRelevant>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsNotRelevant> "If a charapter is not relevant for the chapter"^^xsd:string)
+ObjectPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsNotRelevant> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor>)
+ObjectPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsNotRelevant> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter>)
+DisjointObjectProperties(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsNotRelevant> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn>)
+
+# Object Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> "Especificate the relation between the places and the chapters on the series"^^xsd:string)
+ObjectPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place>)
+ObjectPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter>)
+
+# Object Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> "The actors that participated in a chapter"^^xsd:string)
+ObjectPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Background>)
+ObjectPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Main>)
+ObjectPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Secondary>)
+ObjectPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter>)
+
+# Object Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> "The number of episodes of a season"^^xsd:string)
+ObjectPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season>)
+ObjectPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> "Age of the Worker"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> xsd:int)
+DisjointDataProperties(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series>)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> "The age of the charapter"^^xsd:string)
+SubDataPropertyOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived> "If a charapter is alived"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived> DataOneOf("No" "Yes"))
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char_Name> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char_Name>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char_Name> "Charapter name"^^xsd:string)
+SubDataPropertyOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char_Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name>)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char_Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char_Name> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour> "Colour of the outfit"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour> DataOneOf("Black" "Blue" "Brown" "Green" "Orange" "Red" "White" "Yellow"))
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction> "The real direction of a place that was filmed a chapter"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsFinished> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsFinished>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsFinished> "If a season is finished"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsFinished> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsFinished> DataOneOf("No" "Yes"))
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Model> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Model>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Model> "Model of the vehicle"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Model> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Model> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#N_Chapters> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#N_Chapters>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#N_Chapters> "Number of chapters of a season and series"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#N_Chapters> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season>)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#N_Chapters> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Series>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#N_Chapters> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> "Name of the elements on the series"^^xsd:string)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> xsd:string)
+DisjointDataProperties(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series>)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series> "Name of the charapters"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Main>)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Secondary>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Number> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Number>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Number> "Number of the season"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Number> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter>)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Number> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Number> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ObjectName> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ObjectName>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ObjectName> "Name of the object used in a chapter"^^xsd:string)
+SubDataPropertyOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ObjectName> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name>)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ObjectName> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ObjectName> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#PersonName> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#PersonName>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#PersonName> "Real name of the persons implicated on the series"^^xsd:string)
+SubDataPropertyOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#PersonName> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name>)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#PersonName> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#PersonName> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> "Name of the place"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> "Places where he has had the filming"^^xsd:string)
+SubDataPropertyOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name>)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> "Price of the object"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Objects>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> "Salary of the persons in the series"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Title> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Title>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Title> "Title of the series"^^xsd:string)
+SubDataPropertyOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Title> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name>)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Title> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Series>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Title> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Type> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Type>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Type> "Type of the series"^^xsd:string)
+DataPropertyDomain(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Type> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Series>)
+DataPropertyRange(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Type> xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor> "The actors in the filming"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Background> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Background>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Background> "For background actors"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Background> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter> "Class assosiated with the chapters in a season"^^xsd:string)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director> "Director of the series"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Indoor> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Indoor>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Indoor> "The filming was in a place indoor"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Indoor> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Main> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Main>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Main> "For main actors"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Main> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Objects> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Objects>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Objects> "Objects used in a chapter"^^xsd:string)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outdoor> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outdoor>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outdoor> "The filming was in a place outdoor"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outdoor> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit> "Outfit used in a chapter by a character"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Objects>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Screenwriter> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Screenwriter>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Screenwriter> "Screenwriter of the series"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Screenwriter> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season> "Season of the series"^^xsd:string)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Secondary> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Secondary>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Secondary> "For secondary actors"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Secondary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Actor>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Series> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Series>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Series> "The series"^^xsd:string)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Special_effects> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Special_effects>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Special_effects> "The person who is the responsable of the special effects on the series"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Special_effects> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage> "Element used in a chapter for the setting"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Objects>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle> "Vehicle used in a chapter"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Objects>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Videographer> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Videographer>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Videographer> "The Videographers of the series"^^xsd:string)
+SubClassOf(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Videographer> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker>)
+
+# Class: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Worker> "Persons who works in the series"^^xsd:string)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Videographer> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1> "35"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#PersonName> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1> "Álvaro Cozar")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera1> "35000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera2> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera2>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Videographer> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera2> "45"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera2> "Angelo Angel")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Camera2> "45000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Main> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> "50"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> "45"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> "Yes")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> "Jose Alberto San")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> "Fabian Heredia")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1> "38000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1> "60"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1> "Obsesion")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_2> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_2>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_2> "Anxiety")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3> "Represion")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4> "Avalanche")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5> "Fury")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Secondary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> "17"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> "30"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> "Yes")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> "Antonio Maria Contreras")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> "Arnau Toribio")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2> "80000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1> "Agony")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Chapter> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2> "Agony")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Secondary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3> "18"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3> "22"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3> "Yes")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3> "Mario Zapata")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3> "Joaquim Rincon")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char3> "17000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Main> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> "26"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> "32"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> "Yes")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> "Rayan Quero")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> "Iago Pino")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char4> "60000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Secondary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5> "34"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5> "52"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Alived> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5> "Yes")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5> "Bartolome Ubeda")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5> "Candido Casanova")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char5> "80000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director> "26"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director> "Gregorio Campillo")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Director> "100000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Effects> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Effects>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Special_effects> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Effects>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Effects> "31"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Effects> "Jacobo Sebastian")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Effects> "50000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion1> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion1>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion1> "Red")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion2> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion2>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion2> "Green")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion3> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion3>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion3>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion3> "Yellow")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion4> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion4>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion4>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion4> "Blue")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion5> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion5>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outfit> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion5>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Colour> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Fassion5> "Blue")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar1> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar1>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Background> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar1> "45"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar1> "50"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar1> "500"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar2> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar2>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Background> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar2> "50"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar2> "18"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar2> "600"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar3> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar3>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Background> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#ParticipateIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar3> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar3> "60"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age_In_Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar3> "62"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#GroundChar3> "300"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place1> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place1>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Indoor> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place1> "Direction1")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place1> "Office")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place2> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place2>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outdoor> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place2> "Direction2")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place2> "Older Bridge")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place3> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place3>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outdoor> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place3> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place3> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place3> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place3> "Direction3")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place3> "Beach")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place4> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place4>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Indoor> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place4> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place4> "Direction1")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place4> "Abandoned house")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place5> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place5>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Indoor> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place5> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place5> "Direction1")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place5> "Home")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place6> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place6>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Outdoor> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place6>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#OccurIn> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place6> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Direction> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place6> "Direction4")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Place6> "Center of city")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsFinished> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1> "Yes")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#N_Chapters> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season1> "5"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season2> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season2>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#isPart> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsFinished> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season2> "No")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#N_Chapters> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Season2> "5"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Serie> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Serie>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Series> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Serie>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#IsFinished> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Serie> "No")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#N_Chapters> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Serie> "20"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Title> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Serie> "Revenge's Name")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Type> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Serie> "Thriller")
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage1> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage1>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage1> "Streetlight")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage1> "600"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage2> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage2>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage2> "Streetlight")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage2> "200"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage3> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage3>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage3>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage3> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_5>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage3> "Gun")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage3> "100"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage4> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage4>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage4>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage4> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage4> "Table"^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage4> "200"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage5> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage5>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage5>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage5> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage5> "Shovel")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage5> "600"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage6> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage6>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage6>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage6> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage6> "Chair")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Stage6> "50"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle1> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle1>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle1> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char1_3>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle1> "Subaru")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle1> "60000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle2> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle2>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle2>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_1>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#HasSome> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle2> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Char2_2>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Model> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle2> "Seat Leon")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Price> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Vehicle2> "20000"^^xsd:int)
+
+# Individual: <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Writter> (<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Writter>)
+
+ClassAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Screenwriter> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Writter>)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Age> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Writter> "18"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Name> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Writter> "Consolacion Caro")
+DataPropertyAssertion(<http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Salary> <http://www.semanticweb.org/alber/ontologies/2022/3/untitled-ontology-7#Writter> "60000"^^xsd:int)
+
+
+AnnotationAssertion(rdfs:comment owl:Thing "General Class"^^xsd:string)
+)
